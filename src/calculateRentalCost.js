@@ -6,7 +6,7 @@
 
 function calculateRentalCost(days) {
   if (typeof days !== 'number' || days <= 0 || !Number.isInteger(days)) {
-    return "Please enter a valid number of days.";
+    return 'Please enter a valid number of days.';
   }
 
   const dailyRate = 40;
